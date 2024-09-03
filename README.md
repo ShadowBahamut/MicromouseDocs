@@ -21,7 +21,7 @@ I can't really help you other giving you my current Makefile, although you may n
 - IDK, it's electronics
 
 ## Flashing the board
-> You probably need the STM32cube programmer (tried using st-flash but it wasn't overwriting the old code so eventually ended up running out of space on the mouse)
+> You probably need the STM32cube programmer (tried using st-flash [st-flash is a terminal utility to flash binaries to stm32 boards] but it wasn't overwriting the old code so eventually ended up running out of space on the mouse)
 
 Basically just follow the steps you used to flash the inital program (connect embedded debugger, click connect, find the .elf file, click download, finally disconnect and test)
 ###To find the compiled .elf file (dunno if you can use the other types e.g .BIN , never tried nor do I care to)
